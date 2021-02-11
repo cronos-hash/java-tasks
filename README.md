@@ -5,7 +5,6 @@
 ### Add.java
 
     /****************************************/
-    //* Name:   Chay Tyndall SID: 1610314   *//
     //* Task:     Task 1 Part (a)           *//
     //* Description: Add.java               *//
     //* Date:     30th Jan 2020             *//
@@ -53,7 +52,6 @@
 ### Calculator.java
 
     /****************************************/
-    //* Name:   Chay Tyndall SID: 1610314   *//
     //* Task:     Task 1 Part (b)           *//
     //* Description: Calculator.java        *//
     //* Date:     23th Jan 2020             *//
@@ -154,58 +152,6 @@
 ### BankAccount.java
 
     /****************************************/
-    //* Name:   Chay Tyndall SID: 1610314   *//
-    //* Task:     Task 2 Part (a)           *//
-    //* Description: BankAccount.java       *//
-    //* Date:     1st Feb  2020             *//
-    //*                                     *//
-    /*****************************************/
-    // Cyber Security, Object Oriented Programming (2019 MOD004881 TRI2 F01CHE)
-    /* this class has no main method since its ran from BankAccountTest. This 
-    is because its repsonsible for storing methods for an object which can be 
-    initalised in the class which uses the main method when creating objects. */
-    public class BankAccount {
-    	//public data types string and double (public so they can be accessed by the other classes)
-    	public double balance;
-    	public String name;
-    	//if these were private then these wouldnt be modified when say the balance is
-    	//changed in the BankAccountTest
-    	// public get name method useable by other classes, used to return the String name
-    	public String getName() {
-    		// returns the set name of the object
-    		return name;
-    	}
-    	// public void doesnt return anything, but can be accessed by other classes
-    	public void setName(String name) {
-    		//used to set the name of the String name
-    		//this.name is the String name, while "name" is the name within this method
-    		//assigning the classes name to name String in this method
-    		this.name = name;
-    	}
-    	// public BankAccount constructor, used to construct the object when created in
-    	//other classess
-    	//this class is constructored with a balance data type double, so that the object
-    	//can be intialised with a amount when created 
-    	public BankAccount(double balance) {
-    		//balance intialised with becomes the classess "public double balance" useable by other methods within this class
-    		this.balance = balance;
-    	}
-    	// public void method payin, doesnt return a vaule. adds an amount to the balance
-    	public void payin(double amount) {
-    		// adds on the amount paid in to the balance
-    		balance = balance + amount;
-    	}
-    	// public double method, returns a double and gets the balance of this class
-    	public double getBalance() {
-    		// returns balance when method used
-    		return balance;
-    	}
-    }
-
-### BankAccountTest.java
-
-    /****************************************/
-    //* Name:   Chay Tyndall SID: 1610314   *//
     //* Task:     Task 2 Part (a)           *//
     //* Description: BankAccountTest.java   *//
     //* Date:     1st Feb 2020              *//
@@ -261,7 +207,6 @@
 ### BankAccount.java
 
     /****************************************/
-    //* Name:   Chay Tyndall SID: 1610314   *//
     //* Task:     Task 2 Part (b)           *//
     //* Description: BankAccount.java       *//
     //* Date:     10th Feb 2020             *//
@@ -307,7 +252,6 @@
 ### BankAccountTest.java
 
     /****************************************/
-    //* Name:   Chay Tyndall SID: 1610314   *//
     //* Task:     Task 2 Part (b)           *//
     //* Description: BankAccountTest.java   *//
     //* Date:     10th Feb 2020             *//
@@ -385,7 +329,6 @@
 ### BankAccount.java
 
     /****************************************/
-    //* Name:   Chay Tyndall SID: 1610314   *//
     //* Task:     Task 2 Part (b)           *//
     //* Description: BankAccount.java       *//
     //* Date:     10th Feb 2020             *//
@@ -435,7 +378,6 @@
 ### BankAccountTest.java
 
     /****************************************/
-    //* Name:   Chay Tyndall SID: 1610314   *//
     //* Task:     Task 2 Part (b)           *//
     //* Description: BankAccountTest.java   *//
     //* Date:     10th Feb 2020             *//
@@ -480,7 +422,6 @@
 ### CourseStats.java
 
     /****************************************/
-    //* Name:   Chay Tyndall SID: 1610314   *//
     //* Task:     Task 3 Part (a)           *//
     //* Description: Course Statistics      *//
     //* Date:   4th February 2020           *//
@@ -546,7 +487,6 @@
 ### CourseStats.java
 
     /****************************************/
-    //* Name:   Chay Tyndall SID: 1610314   *//
     //* Task:     Task 3 Part (b)           *//
     //* Description: Course Statistics      *//
     //* Date:   4th February 2020           *//
@@ -610,7 +550,6 @@
 ### Animal.java
 
     /****************************************/
-    //* Name:   Chay Tyndall SID: 1610314   *//
     //* Task:     Task 4 Part (b)           *//
     //* Description: Animal.java            *//
     //* Date:     12th Feb 2020             *//
@@ -640,7 +579,6 @@
 ### AnimalTest.java
 
     /****************************************/
-    //* Name:   Chay Tyndall SID: 1610314   *//
     //* Task:     Task 4 Part (b)           *//
     //* Description: AnimalTest.java        *//
     //* Date:     12th Feb 2020             *//
@@ -691,7 +629,6 @@
 ### Cat.java
 
     /****************************************/
-    //* Name:   Chay Tyndall SID: 1610314   *//
     //* Task:     Task 4 Part (b)           *//
     //* Description: Cat.java               *//
     //* Date:     12th Feb 2020             *//
@@ -710,7 +647,6 @@
 ### Dog.java
 
     /****************************************/
-    //* Name:   Chay Tyndall SID: 1610314   *//
     //* Task:     Task 4 Part (b)           *//
     //* Description: Dog.java               *//
     //* Date:     12th Feb 2020             *//
@@ -732,7 +668,6 @@
 ### Lion.java
 
     /****************************************/
-    //* Name:   Chay Tyndall SID: 1610314   *//
     //* Task:     Task 4 Part (b)           *//
     //* Description: Lion.java              *//
     //* Date:     12th Feb 2020             *//
@@ -754,7 +689,6 @@
 ### Animal.java
 
     /****************************************/
-    //* Name:   Chay Tyndall SID: 1610314   *//
     //* Task:     Task 4 Part (d)           *//
     //* Description: Animal.java            *//
     //* Date:     12th Feb 2020             *//
@@ -795,7 +729,6 @@
 ### AnimalTest.java
 
     /****************************************/
-    //* Name:   Chay Tyndall SID: 1610314   *//
     //* Task:     Task 4 Part (d)           *//
     //* Description: AnimalTest.java        *//
     //* Date:     12th Feb 2020             *//
@@ -882,7 +815,6 @@
 ### Cat.java
 
     /****************************************/
-    //* Name:   Chay Tyndall SID: 1610314   *//
     //* Task:     Task 4 Part (d)           *//
     //* Description: Cat.java               *//
     //* Date:     12th Feb 2020             *//
@@ -908,7 +840,6 @@
 ### Dog.java
 
     /****************************************/
-    //* Name:   Chay Tyndall SID: 1610314   *//
     //* Task:     Task 4 Part (d)           *//
     //* Description: Dog.java               *//
     //* Date:     12th Feb 2020             *//
@@ -941,7 +872,6 @@
 ### Lion.java
 
     /****************************************/
-    //* Name:   Chay Tyndall SID: 1610314   *//
     //* Task:     Task 4 Part (d)           *//
     //* Description: Lion.java              *//
     //* Date:     12th Feb 2020             *//
@@ -969,7 +899,6 @@
 ### Animal.java
 
     /****************************************/
-    //* Name:   Chay Tyndall SID: 1610314   *//
     //* Task:     Task 5 Part (a-b)         *//
     //* Description: Animal.java            *//
     //* Date:     17th Feb 2020             *//
@@ -1012,7 +941,6 @@
 ### AnimalTest.java
 
     /****************************************/
-    //* Name:   Chay Tyndall SID: 1610314   *//
     //* Task:     Task 5 Part (a-b)         *//
     //* Description: AnimalTest.java        *//
     //* Date:     17th Feb 2020             *//
@@ -1058,7 +986,6 @@
 ### Cat.java
 
     /****************************************/
-    //* Name:   Chay Tyndall SID: 1610314   *//
     //* Task:     Task 5 Part (a-b)         *//
     //* Description: Cat.java               *//
     //* Date:     17th Feb 2020             *//
@@ -1079,7 +1006,6 @@
 ### Dog.java
 
     /****************************************/
-    //* Name:   Chay Tyndall SID: 1610314   *//
     //* Task:     Task 5 Part (a-b)         *//
     //* Description: Dog.java               *//
     //* Date:     17th Feb 2020             *//
@@ -1102,7 +1028,6 @@
 ### Lion.java
 
     /****************************************/
-    //* Name:   Chay Tyndall SID: 1610314   *//
     //* Task:     Task 5 Part (a-b)         *//
     //* Description: Lion.java              *//
     //* Date:     17th Feb 2020             *//
@@ -1124,7 +1049,6 @@
 ### Animal.java
 
     /****************************************/
-    //* Name:   Chay Tyndall SID: 1610314   *//
     //* Task:     Task 5 Part (c)           *//
     //* Description: Animal.java            *//
     //* Date:     20th Feb 2020             *//
@@ -1175,7 +1099,6 @@
 ### AnimalTest.java
 
     /****************************************/
-    //* Name:   Chay Tyndall SID: 1610314   *//
     //* Task:     Task 5 Part (c)           *//
     //* Description: AnimalTest.java        *//
     //* Date:     20th Feb 2020             *//
@@ -1242,7 +1165,6 @@
                 System.out.printf("\n" + aLion.owner + " loves to admire his lion, ");
                 // overwrites super class make sound since its the Lion object which was used
                 aLion.makeSound();
-                // setting the new owner to Chay
                 aLion.setOwner("Chay");
                 // getting the new owner using the animal super class, also showing that the old
                 // owner can be used from sub class
@@ -1260,7 +1182,6 @@
 ### Cat.java
 
     /****************************************/
-    //* Name:   Chay Tyndall SID: 1610314   *//
     //* Task:     Task 5 Part (c)           *//
     //* Description: Cat.java               *//
     //* Date:     20th Feb 2020             *//
@@ -1283,7 +1204,6 @@
 ### Dog.java
 
     /****************************************/
-    //* Name:   Chay Tyndall SID: 1610314   *//
     //* Task:     Task 5 Part (c)           *//
     //* Description: Dog.java               *//
     //* Date:     20th Feb 2020             *//
@@ -1307,7 +1227,6 @@
 ### Lion.java
 
     /****************************************/
-    //* Name:   Chay Tyndall SID: 1610314   *//
     //* Task:     Task 5 Part (c)           *//
     //* Description: Lion.java              *//
     //* Date:     20th Feb 2020             *//
@@ -1331,7 +1250,6 @@
 ### DemoOverload.java
 
     /****************************************/
-    //* Name:   Chay Tyndall SID: 1610314   *//
     //* Task:     Task 5                    *//
     //* Description: Method overloading     *//
     //* Date:   1st March 2020              *//
